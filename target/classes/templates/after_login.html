@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http:www.thymeLeaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Services</title>
+    <style>
+        button {
+
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            background-color: #4CAF50;
+        }
+
+        form {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form th:action="@{new_category}" >
+        <button>Create New Category</button>
+
+    </form>
+    <form th:action="@{new_expense}" >
+        <button>Create New Expense</button>
+    </form>
+</body>
+</html>
