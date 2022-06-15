@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1 className='App-h1'>Welcome to Wealth Management Application</h1>
-        <h1>Welcome</h1>
+        <h1>Welcome Again</h1>
         <Layout />
       </header>
     </div>
